@@ -23,7 +23,7 @@ function create {
     systemTestName="$artifactId-st"
     serviceName="$artifactId-service"
 
-    mvn archetype:generate -DarchetypeGroupId=com.airhacks -DarchetypeArtifactId=jakartaee-essentials-archetype -DarchetypeVersion=$archetypeVersion -DartifactId=$1 -DgroupId=dev.chf
+    mvn archetype:generate -DarchetypeGroupId=com.airhacks -DarchetypeArtifactId=jakartaee-essentials-archetype -DarchetypeVersion=$archetypeVersion -DartifactId=$artifactId -DgroupId=dev.chf
 
     exit 0
 }
