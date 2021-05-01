@@ -3,8 +3,9 @@
 ### openliberty reinstall
 #############################################################
 
-version="21.0.0.2"
-release="2021-02-09_1100"
+#https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/2021-04-07_0944/openliberty-microProfile4-21.0.0.4.zip
+version="microProfile4-21.0.0.4"
+release="2021-04-07_0944"
 filename="openliberty-$version.zip"
 serverDirectory="$HOME/dev/server"
 downloadDirectory="$HOME/Downloads"
