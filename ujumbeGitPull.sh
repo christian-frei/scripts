@@ -14,6 +14,6 @@ echo "updating ujumbe-client" && cd "$kosymaPath/ujumbe-client" && git pull --re
 echo "updating ujumbe-faragha" && cd "$kosymaPath/ujumbe-faragha" && git pull --rebase &&
 echo "updating ujumbe-server" && cd "$kosymaPath/ujumbe-server" && git pull --rebase &&
 echo "updating ujumbe-vzd" && cd "$kosymaPath/ujumbe-vzd" && git pull --rebase &&
-echo
+echo &&
 echo "everything fine"
 cd $pathBeforeUpdating && exit 0
