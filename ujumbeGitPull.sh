@@ -7,6 +7,7 @@ echo "updating all ujumbe projects"
 echo
 echo "updating api-ti-messenger" && cd "$kosymaPath/api-ti-messenger" && git pull --rebase &&
 echo "updating api-vzd" && cd "$kosymaPath/api-vzd" && git pull --rebase &&
+echo "updating AWS" && cd "$kosymaPath/AWS" && git pull --rebase &&
 echo "updating federationlist" && cd "$kosymaPath/federationlist" && git pull --rebase &&
 echo "updating kosyma-website" && cd "$kosymaPath/kosyma-website" && git pull --rebase &&
 echo "updating registrationservice-backend" && cd "$kosymaPath/registrationservice-backend" && git pull --rebase &&
