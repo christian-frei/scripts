@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # replaces the default profile credentials of ~/.aws/credentials with the contents of the clipboard
-echo -e "[default]\n$(pbpaste)" > ~/.aws/credentials
+clipboardContents=$(pbpaste)
+firstLineRemoved=${clipboardContents#*$'\n'}
+echo -e "[default]\n$firstLineRemoved" > ~/.aws/credentials
 cat ~/.aws/credentials
 
