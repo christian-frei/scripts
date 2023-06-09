@@ -13,6 +13,7 @@ echo "updating kosyma-website" && cd "$kosymaPath/kosyma-website" && git pull --
 echo "updating registrationservice-backend" && cd "$kosymaPath/registrationservice-backend" && git pull --rebase &&
 echo "updating registrationservice-frontend" && cd "$kosymaPath/registrationservice-frontend" && git pull --rebase &&
 echo "updating ujumbe-client" && cd "$kosymaPath/ujumbe-client" && git pull --rebase &&
+echo "updating ujumbe-client-adapter" && cd "$kosymaPath/ujumbe-client-adapter" && git pull --rebase &&
 echo "updating ujumbe-faragha" && cd "$kosymaPath/ujumbe-faragha" && git pull --rebase &&
 echo "updating ujumbe-orgadmin-client" && cd "$kosymaPath/ujumbe-orgadmin-client" && git pull --rebase &&
 echo "updating ujumbe-server" && cd "$kosymaPath/ujumbe-server" && git pull --rebase &&
